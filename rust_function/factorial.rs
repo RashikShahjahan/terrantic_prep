@@ -1,17 +1,13 @@
 //Write a Rust function that computes the factorial of a number using both iterative and recursive approaches.
 fn factorial_iterative(num:u32)->u32{
     let mut result = 1;
-
     if num == 0{
         return 1;
     }
-
     for curr in 1..=num{
         result*=curr;
     }
-
     return result;
-    
 }
 
 
