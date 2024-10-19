@@ -16,10 +16,7 @@ fn quicksort(array:&[i32])->Vec<i32>{
     sorted_left.append(&mut middle);
     sorted_left.append(&mut sorted_right);
 
-
     return sorted_left;
-
-
 }
 
 fn main(){
