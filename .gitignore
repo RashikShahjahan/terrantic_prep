@@ -2,3 +2,4 @@ rust_function/wordcount
 rust_function/factorial
 rust_function/quicksort
 rust_function/mergesorted
+fastapi_function/__pycache__/*
